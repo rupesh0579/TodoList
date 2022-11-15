@@ -2,7 +2,6 @@ const todoForm = document.querySelector(".submit");
 const todoInput = document.querySelector(".todo-text");
 const todoList = document.querySelector(".todo-list");
 
-
 todoForm.addEventListener("click", (e) => {
     e.preventDefault();
     const newTodoText = todoInput.value;
@@ -22,8 +21,5 @@ todoForm.addEventListener("click", (e) => {
 todoList.addEventListener("click", (e) => {
     (e.target.classList.contains("remove"))
     const targetedLi = e.target.parentNode.parentNode;
-    // console.log(targetedLi);
     targetedLi.remove();
-
-
 })
