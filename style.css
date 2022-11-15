@@ -23,14 +23,14 @@ body {
 }
 
 .form-todo input[type="text"] {
-    width: 68%;
+    width: 80%;
     padding: 0.8rem;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
 
-.form-todo button[type="submit"] {
+.submit {
     width: 18%;
     background: rgb(105, 191, 212);
     border-radius: 6px;
@@ -53,14 +53,3 @@ body {
     border-radius: 8px;
 
 }
-
-/* 
-.todo-btn {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 6px;
-    color: rgb(14, 170, 66); */
-
-/* } */

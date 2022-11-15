@@ -11,25 +11,13 @@
 </head>
 
 <body>
-
-
     <div class="todo-container">
         <h3>Your Plan for Today ?</h3>
-        <form class="form-todo">
-            <input type="text" name="" id="text" placeholder="Add Todo" />
-            <button type="submit" value="Add Todo">Add Todo</button>
-            <!-- <input type="submit" value="Add Todo" class="btn" /> -->
-        </form>
-        <ul class="todo-list">
-            <li>
-                <span class="text">Do This do that</span>
-                <div class="todo-buttons">
-                    <i class="fa-solid fa-trash"></i>
-                    <!-- <button class="todo-btn done">Done</button>
-                    <button class="todo-btn remove">Remove</button> -->
-                </div>
-            </li>
-        </ul>
+        <div class="form-todo">
+            <input type="text" name="" class="todo-text" placeholder="Add Todo" />
+            <button class="submit" value="Add Todo">Add Todo</button>
+        </div>
+        <ul class="todo-list"> </ul>
     </div>
     <script src="./todo.js" defer></script>
 </body>

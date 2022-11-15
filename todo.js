@@ -1,21 +1,13 @@
-const todoForm = document.querySelector(".form-todo");
-const todoInput = document.querySelector(".form-todo input[type='text']");
+const todoForm = document.querySelector(".submit");
+const todoInput = document.querySelector(".todo-text");
 const todoList = document.querySelector(".todo-list");
-// console.log(todoInput);
-// console.log(todoList)
-
-// todoForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-//     console.log(todoInput.value);
-//     todoInput.value = "";
-// });
 
 
-todoForm.addEventListener("submit", (e) => {
+todoForm.addEventListener("click", (e) => {
     e.preventDefault();
     const newTodoText = todoInput.value;
     const newLi = document.createElement("li");
-    console.log(newLi)
+    // console.log(newLi)
     const newLiInnerHtml = `
           <span class="text">${newTodoText}</span>
           <div class="todo-buttons">
